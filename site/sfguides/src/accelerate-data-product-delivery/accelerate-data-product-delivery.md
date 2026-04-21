@@ -79,6 +79,15 @@ Source tables loaded by Steps 3–4:
 Confirm Step 6 shows all five tables before continuing.
 
 <!-- ------------------------ -->
+## Start Cortex Code
+
+Duration: 2
+
+From the repo root, run `cortex` to start a session, then invoke the lifecycle accelerator with `$dplc-accelerator` (or type `start lifecycle`). The skill detects your current phase, displays a progress tracker, and presents each prompt one step at a time.
+
+**Keep this session open for all phases — Design through Refine.** You will return to it at the start of each phase.
+
+<!-- ------------------------ -->
 ## Design: Create the Data Contract
 
 Duration: 10 minutes
@@ -111,10 +120,6 @@ Duration: 25 minutes
 This phase uses the `dplc-accelerator` skill — an interactive orchestrator that detects your current phase, displays a progress tracker, and presents each prompt one step at a time.
 
 ![Cortex Code Skills Flow](assets/cortex-code-skills-flow.png)
-
-### Start Cortex Code
-
-From the repo root, run `cortex` to start a session, then invoke the lifecycle accelerator with `$dplc-accelerator` (or type `start lifecycle`). The skill detects your current phase and presents the steps one at a time. **Keep this session open throughout the Deliver phase.**
 
 ### Prompt 1: Generate the dbt Project
 
